@@ -30,7 +30,7 @@ class TableRender extends Component {
         if (this.state.expandedRow === item.id) {
           itemRows.push(
             <tr>
-                <td colspan={Object.keys(this.state.data[0]).length}>
+                <td>
                   <div> {item.status} </div>
                 </td>
             </tr>
