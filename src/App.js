@@ -6,11 +6,9 @@ import TableRender from './TableRender'
 function App() {
   return (
     <div className="App">
-      <TableRender/>
+      <BarChart data={[5,10,1,3]} size={[500,500]} />
     </div>
   );
 }
 
 export default App;
-
-// <BarChart data={[5,10,1,3]} size={[500,500]} />
